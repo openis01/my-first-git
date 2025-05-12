@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: linear-gradient(135deg, #1a0033 0%, #0f2027 100%);
+  font-family: 'Press Start 2P', 'Noto Sans KR', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+header {
+  background: #2d004d;
+  border-bottom: 4px solid #ff00cc;
+  padding: 32px 0 16px 0;
+  text-align: center;
+  box-shadow: 0 4px 16px #0008;
+}
+
+h1 {
+  color: #ff00cc;
+  font-size: 2.2em;
+  margin: 0 0 8px 0;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #00eaff, 0 0 16px #ff00cc;
+}
+
+.subtitle {
+  color: #00eaff;
+  font-size: 1em;
+  margin: 0;
+  text-shadow: 0 0 6px #fffb00;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  background: rgba(30, 0, 60, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px #000a;
+  padding: 32px 24px;
+}
+
+.intro h2, .anime-list h2 {
+  color: #fffb00;
+  font-size: 1.1em;
+  margin-top: 0;
+  text-shadow: 0 0 4px #ff00cc;
+}
+
+.intro p {
+  font-size: 1em;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.anime-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.anime-list li {
+  background: #2d004d;
+  border-left: 6px solid #00eaff;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0006;
+  transition: background 0.2s;
+}
+
+.anime-list li:hover {
+  background: #ff00cc;
+  color: #fff;
+  border-left: 6px solid #fffb00;
+}
+
+footer {
+  background: #2d004d;
+  color: #00eaff;
+  text-align: center;
+  padding: 18px 0 12px 0;
+  font-size: 0.9em;
+  border-top: 4px solid #ff00cc;
+  margin-top: 40px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 4px #fffb00;
+} 
